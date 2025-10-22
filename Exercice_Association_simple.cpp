@@ -14,5 +14,6 @@ int main()
     Date date2(13, 11, 2023);
     Client_Reference c2("Malak", "Bennani", "C111C", acc2, date2);
     c2.afficher();
+    delete acc1;
 
 }
